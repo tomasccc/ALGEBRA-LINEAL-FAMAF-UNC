@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "14a1b212e612f886",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9feeb5cf801f63a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c68b12da291f7fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.1 Espacios vectoriales y subespacios/Conceptos aislados/Cuerpo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cuerpo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e195dd825f30179a",
+    "type": "split",
+    "children": [
+      {
+        "id": "88e28983bb64eec8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe2b244be98000d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "bb9656a09fbdef80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "bd12e3ffac104e20",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9e884cb2c0b8fbf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "e12f8c4b8871809a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58371025fb63f489",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1.1 Espacios vectoriales y subespacios.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 1.1 Espacios vectoriales y subespacios"
+            }
+          },
+          {
+            "id": "cf01777b06068e87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1.1 Espacios vectoriales y subespacios.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de 1.1 Espacios vectoriales y subespacios"
+            }
+          },
+          {
+            "id": "49ee1607fc5d99ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "f4e9a85c3f7fdb12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1.1 Espacios vectoriales y subespacios.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 1.1 Espacios vectoriales y subespacios"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "3c68b12da291f7fd",
+  "lastOpenFiles": [
+    "1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
+    "1.1 Espacios vectoriales y subespacios/Conceptos aislados/Cuerpo.md",
+    "1.1 Espacios vectoriales y subespacios/Conceptos aislados/Definición 1.2 Propiedades básicas.md",
+    "1.1 Espacios vectoriales y subespacios/Conceptos aislados/La multiplicación de un vector fijo por escalares reales.md",
+    "1.1 Espacios vectoriales y subespacios/Conceptos aislados/Anillo.md",
+    "1.1 Espacios vectoriales y subespacios/Conceptos aislados/¿Qué está diciendo la definición precisa de Espacio Vectorial?.md",
+    "1.1 Espacios vectoriales y subespacios/1.1.2 Espacios vectoriales.md",
+    "1.1 Espacios vectoriales y subespacios/1.1.3 Subespacios.md",
+    "1.1 Espacios vectoriales y subespacios/Demostraciones/D-Propiedades de un espacio vectorial.md",
+    "1.1 Espacios vectoriales y subespacios/Demostraciones",
+    "1.1 Espacios vectoriales y subespacios/Conceptos aislados",
+    "Pasted image 20250821220107.png",
+    "Cuerpos.md",
+    "1.1 Espacios vectoriales y subespacios"
+  ]
+}

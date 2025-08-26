@@ -1,0 +1,36 @@
+##### **A Demostrar**
+Hay propiedades que se cumplen en cualquier espacio vectorial:
+Sea $V$ un $K$-espacio vectorial. Entonces:
+1. $0 \cdot v = 0$ para todo $v \in V$. (Observar que el elemento $0$ que aparece en el miembro izquierdo de la igualdad es el elemento neutro de $K$, mientras que el de la derecha es el vector $0 \in V$)
+2. $(-1) \cdot v = -v$ para todo $v \in V$. (Recuérdese que $-v$ denota al inverso aditivo de $v.$)
+3. $a \cdot 0 = 0$. (Multiplicación escalar de un vector nulo da el vector nulo)
+4. Si $a \cdot v = 0$, entonces o bien $a=0$ o $v=0$. Este resultado dice que no hay "divisores de cero" entre escalares y vectores
+****
+##### **Demostración**
+1. Se tiene que  
+    $0 \cdot v = (0 + 0) \cdot v = 0 \cdot v + 0 \cdot v.$
+Sea $w$ el inverso aditivo de $0 \cdot v$. Entonces  $0 = 0 \cdot v + w = (0 \cdot v + 0 \cdot v) + w = 0 \cdot v + (0 \cdot v + w) = 0 \cdot v + 0 = 0 \cdot v.$
+
+2. Vemos que  
+    $v + (-1) \cdot v = (-1) \cdot v + v = (-1) \cdot v + 1 \cdot v = (-1 + 1) \cdot v = 0 \cdot v = 0.$
+Luego, $(-1) \cdot v$ es el inverso aditivo de $v$, es decir $(-1) \cdot v = -v$.
+
+3. Aplicamos **distributividad del producto escalar** respecto a la suma de vectores:
+$a \cdot (0 + 0) = a \cdot 0 + a \cdot 0$
+Pero también sabemos que $0 + 0 = 0$, así que:
+$a \cdot 0 = a \cdot 0 + a \cdot 0$
+Ahora restamos $a \cdot 0$ de ambos lados (usando inversos aditivos en $V$):
+$a \cdot 0 - a \cdot 0 = (a \cdot 0 + a \cdot 0) - a \cdot 0$
+$0 = a \cdot 0$
+
+4. Supongamos que: $a \neq 0 \quad \text{y} \quad v \neq 0$
+Queremos ver que entonces: $a \cdot v \neq 0$. Como $a \neq 0$, y $K$ es un **cuerpo**, entonces $a^{-1} \in K$.
+Supón por contradicción que $a \cdot v = 0$.
+Multiplicamos por $a^{-1}$:
+$a^{-1} \cdot (a \cdot v) = a^{-1} \cdot 0 = 0$
+Por asociatividad de la multiplicación escalar:
+$(a^{-1} \cdot a) \cdot v = 1 \cdot v = v$
+Entonces:
+$v = 0$
+Pero eso contradice nuestra suposición de que $v \neq 0$
+**Conclusión:** Si $a \cdot v = 0$, entonces necesariamente $a = 0$ o $v = 0$

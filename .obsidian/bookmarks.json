@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1755812657675,
+      "path": "1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
+      "subpath": "#**Definición 1.1.** Sea $A$ un conjunto no vacío. Una operación de $A$ es una función $* A times A to A.$",
+      "title": "definicion de operacion"
+    },
+    {
+      "type": "file",
+      "ctime": 1755812752934,
+      "path": "1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
+      "subpath": "#**Definición 1.3** Sea $A$ un conjunto, y sea $*$ una operación en $A$ que satisface las propiedades...",
+      "title": "grupo"
+    },
+    {
+      "type": "file",
+      "ctime": 1755815379886,
+      "path": "1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
+      "subpath": "#**Definición 1.4.** Sea $A$ un conjunto y sean $+$ y $·$ operaciones de $A$. Se dice que $(A, +, ·)$ es un anillo si...",
+      "title": "anillo"
+    }
+  ]
+}
