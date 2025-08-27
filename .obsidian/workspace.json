@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/1.1 Espacios vectoriales y subespacios/1.1.2 Espacios vectoriales.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.2 Espacios vectoriales"
+              "title": "index"
             }
           }
         ]
@@ -168,8 +168,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fe2b244be98000d7",
+  "active": "3c68b12da291f7fd",
   "lastOpenFiles": [
+    "docs/1.1 Espacios vectoriales y subespacios/1.1.2 Espacios vectoriales.md",
     "site/search/search_index.json",
     "site/search",
     "site/1.1 Espacios vectoriales y subespacios/Demostraciones/D-Propiedades de un espacio vectorial/index.html",
@@ -180,10 +181,8 @@
     "site/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición Espacio Vectorial/index.html",
     "site/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición Espacio Vectorial",
     "site/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición 1.2 Propiedades básicas/index.html",
-    "site/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición 1.2 Propiedades básicas",
     "docs/1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
     "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición Espacio Vectorial.md",
-    "docs/1.1 Espacios vectoriales y subespacios/1.1.2 Espacios vectoriales.md",
     "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Anillo.md",
     "docs/index.md",
     "site/assets/images/favicon.png",
