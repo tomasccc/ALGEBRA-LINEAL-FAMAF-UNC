@@ -1,4 +1,3 @@
-
 Sea $* : A \times A \to A$ una operación.
 - $*$ se dice **asociativa** si $(a * b) * c = a * (b * c)$  $\forall a, b, c \in A.$
 - Se dice que $*$ tiene **elemento neutro** si $\exists e \in A$ tal que $e * a = a * e = a$ para cada $a \in A$.
