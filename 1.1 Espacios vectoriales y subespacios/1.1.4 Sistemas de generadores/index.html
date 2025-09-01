@@ -9,25 +9,25 @@
       
       
       
-        <link rel="prev" href="../Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/">
+        <link rel="prev" href="../1.1.3%20Subespacios/">
       
       
-        <link rel="next" href="../La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/">
+        <link rel="next" href="../Conceptos_aislados/Anillo/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Definición Espacio Vectorial - ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso</title>
+        <title>1.1.4 Sistemas de generadores - ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#definicion-formal" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +86,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-header__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
+    <a href="../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-header__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Definición Espacio Vectorial
+              1.1.4 Sistemas de generadores
             
           </span>
         </div>
@@ -202,7 +207,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -225,7 +230,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../1.1.1%20Preliminares/" class="md-tabs__link">
+        <a href="../1.1.1%20Preliminares/" class="md-tabs__link">
           
   
   
@@ -245,7 +250,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-tabs__link">
+        <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-tabs__link">
           
   
   
@@ -281,7 +286,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-nav__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
+    <a href="../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-nav__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -299,7 +304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -367,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.1%20Preliminares/" class="md-nav__link">
+      <a href="../1.1.1%20Preliminares/" class="md-nav__link">
         
   
   
@@ -390,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.2%20Espacios%20vectoriales/" class="md-nav__link">
+      <a href="../1.1.2%20Espacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -413,147 +418,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.3%20Subespacios/" class="md-nav__link">
+      <a href="../1.1.3%20Subespacios/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     1.1.3 Subespacios
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../1.1.4%20Sistemas%20de%20generadores/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    1.1.4 Sistemas de generadores
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Conceptos aislados
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_5">
-            <span class="md-nav__icon md-icon"></span>
-            Conceptos aislados
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Anillo/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Anillo
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Cuerpo/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Cuerpo
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Definición 1.2 Propiedades básicas
     
   </span>
   
@@ -578,17 +448,56 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    1.1.4 Sistemas de generadores
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Definición Espacio Vectorial
+    1.1.4 Sistemas de generadores
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#definicion-formal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición formal
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -601,8 +510,141 @@
   
   
   
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Conceptos aislados
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Conceptos aislados
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/" class="md-nav__link">
+      <a href="../Conceptos_aislados/Anillo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Anillo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Conceptos_aislados/Cuerpo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cuerpo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Conceptos_aislados/Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Definición 1.2 Propiedades básicas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Conceptos_aislados/Definici%C3%B3n%20Espacio%20Vectorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Definición Espacio Vectorial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Conceptos_aislados/La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/" class="md-nav__link">
         
   
   
@@ -674,7 +716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/" class="md-nav__link">
+      <a href="../Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -697,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.2.E-Espacios%20vectoriales/" class="md-nav__link">
+      <a href="../Demostraciones/1.1.2.E-Espacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -720,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.3.D-La%20intersecci%C3%B3n%20de%20subespacios%20es%20subespacio/" class="md-nav__link">
+      <a href="../Demostraciones/1.1.3.D-La%20intersecci%C3%B3n%20de%20subespacios%20es%20subespacio/" class="md-nav__link">
         
   
   
@@ -743,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.3.D-Tres%20propiedades%20de%20un%20subespacio%20vectorial/" class="md-nav__link">
+      <a href="../Demostraciones/1.1.3.D-Tres%20propiedades%20de%20un%20subespacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -815,7 +857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.1.E-Dominio%20de%20integridad/" class="md-nav__link">
+      <a href="../Ejemplos/1.1.1.E-Dominio%20de%20integridad/" class="md-nav__link">
         
   
   
@@ -838,7 +880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.1.E-Grupo/" class="md-nav__link">
+      <a href="../Ejemplos/1.1.1.E-Grupo/" class="md-nav__link">
         
   
   
@@ -861,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.3.E-Subespacios%20con%20tres%20propiedades/" class="md-nav__link">
+      <a href="../Ejemplos/1.1.3.E-Subespacios%20con%20tres%20propiedades/" class="md-nav__link">
         
   
   
@@ -884,7 +926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.3.E-Subespacios%20vectoriales/" class="md-nav__link">
+      <a href="../Ejemplos/1.1.3.E-Subespacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -963,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-nav__link">
+      <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-nav__link">
         
   
   
@@ -986,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/" class="md-nav__link">
+      <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/" class="md-nav__link">
         
   
   
@@ -1025,21 +1067,15 @@
 
 
 
-  <h1>Definición Espacio Vectorial</h1>
+  <h1>1.1.4 Sistemas de generadores</h1>
 
-<p>Repsecto a la definición de <strong>espacio vectorial</strong> otorgada en el apartado <a href="../../1.1.2%20Espacios%20vectoriales/">1.1.2 Espacios vectoriales</a>, lo que hace la misma es <strong>construir una estructura paso a paso</strong>, primero aclaremos que los elementos de <span class="arithmatex">\(V\)</span> se llaman <em>vectores</em> y los elementos de <span class="arithmatex">\(K\)</span> se llaman <em>escalares</em>. La acción <span class="arithmatex">\(\cdot\)</span> se llama <em>producto por escalares</em>.
-1. <strong>¿Por qué se exige que <span class="arithmatex">\(V\)</span> sea un conjunto no vacío?</strong>
-- Un <strong>espacio vectorial</strong> requiere que haya <strong>elementos (vectores)</strong> para operar.
-- Si <span class="arithmatex">\(V = \varnothing\)</span>, no tendría sentido hablar de suma de vectores ni de multiplicación escalar.
-- Además, todos los espacios vectoriales <strong>deben tener al menos el vector cero</strong>, así que <span class="arithmatex">\(V\)</span> no puede estar vacío.
-1. <strong>¿Por qué se especifica que <span class="arithmatex">\(+\)</span> es una operación en <span class="arithmatex">\(V\)</span>?</strong>
-Esto significa que: $$ + : V \times V \rightarrow V $$Es decir, <strong>la suma de dos vectores es otro vector</strong>. Esto, entre otras condiciones más adelante, convierte a <span class="arithmatex">\(V\)</span> en un <strong>grupo abeliano</strong> bajo la suma.</p>
-<ol>
-<li><strong>¿Por qué se dice que <span class="arithmatex">\(\cdot\)</span> es una acción de <span class="arithmatex">\(K\)</span> en <span class="arithmatex">\(V\)</span>? ¿Por qué no se dice simplemente que es una operación en <span class="arithmatex">\(V\)</span>?</strong>
-<span class="arithmatex">\(\cdot\)</span> no es una operación <strong>interna</strong> en <span class="arithmatex">\(V\)</span>
-Una operación interna es algo como <span class="arithmatex">\(\circ : V \times V \to V\)</span>.<br />
-Pero en este caso, la multiplicación escalar es: $$ \cdot : K \times V \rightarrow V $$Es decir, <strong>uno de los elementos proviene del cuerpo <span class="arithmatex">\(K\)</span></strong> (los escalares), <strong>y el otro del espacio vectorial <span class="arithmatex">\(V\)</span></strong> (los vectores).</li>
-</ol>
+<p><strong>Definición intuitiva</strong>. Un sistema de generadores de un espacio vectorial <span class="arithmatex">\(V\)</span> sobre un cuerpo <span class="arithmatex">\(K\)</span> es un conjunto de vectores <span class="arithmatex">\(S \subseteq V\)</span> tal que todos los vectores de <span class="arithmatex">\(V\)</span> se pueden escribir como combinación lineal de vectores de <span class="arithmatex">\(S\)</span>.</p>
+<p>En otras palabras: los vectores de <span class="arithmatex">\(S\)</span> "producen" (o generan) todo el espacio al permitir combinaciones lineales con escalares de <span class="arithmatex">\(K\)</span>.</p>
+<hr />
+<h5 id="definicion-formal"><strong>Definición formal</strong></h5>
+<p>Sea <span class="arithmatex">\(V\)</span> un espacio vectorial sobre <span class="arithmatex">\(K\)</span>, <span class="arithmatex">\(S = \{v_1, v_2, \ldots, v_m\} \subseteq V\)</span>. Se dice que <span class="arithmatex">\(S\)</span> es un sistema de generadores de <span class="arithmatex">\(V\)</span> si:
+<span class="arithmatex">\(<span class="arithmatex">\(V = \langle S \rangle = \{\lambda_1 v_1 + \cdots + \lambda_m v_m : \lambda_i \in K\}\)</span>\)</span>
+Aquí <span class="arithmatex">\(\langle S \rangle\)</span> es el subespacio generado por <span class="arithmatex">\(S\)</span>, es decir, el conjunto de todas las combinaciones lineales de los vectores de <span class="arithmatex">\(S\)</span>.</p>
 
 
 
@@ -1094,14 +1130,14 @@ Pero en este caso, la multiplicación escalar es: $$ \cdot : K \times V \rightar
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="../../../js/mathjax-refresh.js"></script>
+        <script src="../../js/mathjax-refresh.js"></script>
       
     
   </body>

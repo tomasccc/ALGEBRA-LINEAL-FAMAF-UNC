@@ -9,25 +9,25 @@
       
       
       
-        <link rel="prev" href="../Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/">
+        <link rel="prev" href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Ejemplos/1.1.3.E-Subespacios%20vectoriales/">
       
       
-        <link rel="next" href="../La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/">
+        <link rel="next" href="../1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Definición Espacio Vectorial - ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso</title>
+        <title>1.2.1 Sistemas lineales homogéneos - ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#definicion-116-un-sistema-lineal-homogeneo-de-n-ecuaciones-con-m-incognitas-a-coeficientes-en-un-cuerpo-k-es-un-sistema-del-tipo" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +86,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-header__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
+    <a href="../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-header__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Definición Espacio Vectorial
+              1.2.1 Sistemas lineales homogéneos
             
           </span>
         </div>
@@ -202,7 +207,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -219,13 +224,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../1.1.1%20Preliminares/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.1%20Preliminares/" class="md-tabs__link">
           
   
   
@@ -241,11 +244,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -281,7 +286,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-nav__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
+    <a href="../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-nav__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -299,7 +304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -318,29 +323,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -353,7 +353,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             1.1 Espacios vectoriales y subespacios
@@ -367,7 +367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.1%20Preliminares/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.1%20Preliminares/" class="md-nav__link">
         
   
   
@@ -390,7 +390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.2%20Espacios%20vectoriales/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.2%20Espacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -413,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.3%20Subespacios/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.3%20Subespacios/" class="md-nav__link">
         
   
   
@@ -436,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../1.1.4%20Sistemas%20de%20generadores/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.4%20Sistemas%20de%20generadores/" class="md-nav__link">
         
   
   
@@ -456,8 +456,6 @@
                 
   
   
-    
-  
   
   
     
@@ -468,11 +466,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
         
           
           <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
@@ -488,7 +486,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             Conceptos aislados
@@ -502,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Anillo/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Conceptos_aislados/Anillo/" class="md-nav__link">
         
   
   
@@ -525,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Cuerpo/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Conceptos_aislados/Cuerpo/" class="md-nav__link">
         
   
   
@@ -548,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Conceptos_aislados/Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/" class="md-nav__link">
         
   
   
@@ -568,17 +566,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Conceptos_aislados/Definici%C3%B3n%20Espacio%20Vectorial/" class="md-nav__link">
         
   
   
@@ -589,7 +580,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -602,7 +592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Conceptos_aislados/La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/" class="md-nav__link">
         
   
   
@@ -674,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -697,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.2.E-Espacios%20vectoriales/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Demostraciones/1.1.2.E-Espacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -720,7 +710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.3.D-La%20intersecci%C3%B3n%20de%20subespacios%20es%20subespacio/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Demostraciones/1.1.3.D-La%20intersecci%C3%B3n%20de%20subespacios%20es%20subespacio/" class="md-nav__link">
         
   
   
@@ -743,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Demostraciones/1.1.3.D-Tres%20propiedades%20de%20un%20subespacio%20vectorial/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Demostraciones/1.1.3.D-Tres%20propiedades%20de%20un%20subespacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -815,7 +805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.1.E-Dominio%20de%20integridad/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Ejemplos/1.1.1.E-Dominio%20de%20integridad/" class="md-nav__link">
         
   
   
@@ -838,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.1.E-Grupo/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Ejemplos/1.1.1.E-Grupo/" class="md-nav__link">
         
   
   
@@ -861,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.3.E-Subespacios%20con%20tres%20propiedades/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Ejemplos/1.1.3.E-Subespacios%20con%20tres%20propiedades/" class="md-nav__link">
         
   
   
@@ -884,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ejemplos/1.1.3.E-Subespacios%20vectoriales/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/Ejemplos/1.1.3.E-Subespacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -919,24 +909,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -949,7 +944,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             1.2 Sistemas de ecuaciones lineales
@@ -960,10 +955,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    1.2.1 Sistemas lineales homogéneos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -974,6 +989,51 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#definicion-116-un-sistema-lineal-homogeneo-de-n-ecuaciones-con-m-incognitas-a-coeficientes-en-un-cuerpo-k-es-un-sistema-del-tipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición 1.16. Un sistema lineal homogéneo de \(n\) ecuaciones con \(m\) incógnitas a coeficientes en un cuerpo \(K\) es un sistema del tipo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacion-117-el-conjunto-de-las-soluciones-de-un-sistema-lineal-homogeneo-con-m-incognitas-es-un-subespacio-de-km" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observación 1.17. El conjunto de las soluciones de un sistema lineal homogéneo con \(m\) incógnitas es un subespacio de \(K^m\).
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definicion-118-dos-sistemas-lineales-homogeneos-se-dicen-equivalentes-si-sus-conjuntos-de-soluciones-son-iguales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición 1.18. Dos sistemas lineales homogéneos se dicen equivalentes si sus conjuntos de soluciones son iguales.
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -986,7 +1046,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/" class="md-nav__link">
+      <a href="../1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/" class="md-nav__link">
         
   
   
@@ -1025,21 +1085,20 @@
 
 
 
-  <h1>Definición Espacio Vectorial</h1>
+  <h1>1.2.1 Sistemas lineales homogéneos</h1>
 
-<p>Repsecto a la definición de <strong>espacio vectorial</strong> otorgada en el apartado <a href="../../1.1.2%20Espacios%20vectoriales/">1.1.2 Espacios vectoriales</a>, lo que hace la misma es <strong>construir una estructura paso a paso</strong>, primero aclaremos que los elementos de <span class="arithmatex">\(V\)</span> se llaman <em>vectores</em> y los elementos de <span class="arithmatex">\(K\)</span> se llaman <em>escalares</em>. La acción <span class="arithmatex">\(\cdot\)</span> se llama <em>producto por escalares</em>.
-1. <strong>¿Por qué se exige que <span class="arithmatex">\(V\)</span> sea un conjunto no vacío?</strong>
-- Un <strong>espacio vectorial</strong> requiere que haya <strong>elementos (vectores)</strong> para operar.
-- Si <span class="arithmatex">\(V = \varnothing\)</span>, no tendría sentido hablar de suma de vectores ni de multiplicación escalar.
-- Además, todos los espacios vectoriales <strong>deben tener al menos el vector cero</strong>, así que <span class="arithmatex">\(V\)</span> no puede estar vacío.
-1. <strong>¿Por qué se especifica que <span class="arithmatex">\(+\)</span> es una operación en <span class="arithmatex">\(V\)</span>?</strong>
-Esto significa que: $$ + : V \times V \rightarrow V $$Es decir, <strong>la suma de dos vectores es otro vector</strong>. Esto, entre otras condiciones más adelante, convierte a <span class="arithmatex">\(V\)</span> en un <strong>grupo abeliano</strong> bajo la suma.</p>
-<ol>
-<li><strong>¿Por qué se dice que <span class="arithmatex">\(\cdot\)</span> es una acción de <span class="arithmatex">\(K\)</span> en <span class="arithmatex">\(V\)</span>? ¿Por qué no se dice simplemente que es una operación en <span class="arithmatex">\(V\)</span>?</strong>
-<span class="arithmatex">\(\cdot\)</span> no es una operación <strong>interna</strong> en <span class="arithmatex">\(V\)</span>
-Una operación interna es algo como <span class="arithmatex">\(\circ : V \times V \to V\)</span>.<br />
-Pero en este caso, la multiplicación escalar es: $$ \cdot : K \times V \rightarrow V $$Es decir, <strong>uno de los elementos proviene del cuerpo <span class="arithmatex">\(K\)</span></strong> (los escalares), <strong>y el otro del espacio vectorial <span class="arithmatex">\(V\)</span></strong> (los vectores).</li>
-</ol>
+<p>Un primer tipo de sistemas de ecuaciones que estudiaremos son los que tienen todas las ecuaciones igualadas a 0.</p>
+<h5 id="definicion-116-un-sistema-lineal-homogeneo-de-n-ecuaciones-con-m-incognitas-a-coeficientes-en-un-cuerpo-k-es-un-sistema-del-tipo"><strong>Definición 1.16</strong>. Un sistema lineal homogéneo de <span class="arithmatex">\(n\)</span> ecuaciones con <span class="arithmatex">\(m\)</span> incógnitas a coeficientes en un cuerpo <span class="arithmatex">\(K\)</span> es un sistema del tipo</h5>
+<p>![[Pasted image 20250901112918.png]]
+donde <span class="arithmatex">\(a_{ij} \in K\)</span> para cada <span class="arithmatex">\(1 \leq i \leq n\)</span>, <span class="arithmatex">\(1 \leq j \leq m\)</span>.</p>
+<hr />
+<h5 id="observacion-117-el-conjunto-de-las-soluciones-de-un-sistema-lineal-homogeneo-con-m-incognitas-es-un-subespacio-de-km"><strong>Observación 1.17.</strong> El conjunto de las soluciones de un sistema lineal homogéneo con <span class="arithmatex">\(m\)</span> incógnitas es un subespacio de <span class="arithmatex">\(K^m\)</span>.</h5>
+<p>Resolver un sistema de este tipo significará dar un <strong><a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.4%20Sistemas%20de%20generadores/">1.1.4 Sistemas de generadores</a></strong> para el subespacio de las soluciones.
+El método que daremos para la resolución de sistemas de ecuaciones lineales consiste en transformar el sistema dado, por medio de ciertas operaciones, en otro que tenga el mismo conjunto de soluciones, pero cuya resolución sea más simple. Aparece entonces la noción de sistemas equivalentes:</p>
+<hr />
+<h5 id="definicion-118-dos-sistemas-lineales-homogeneos-se-dicen-equivalentes-si-sus-conjuntos-de-soluciones-son-iguales"><strong>Definición 1.18.</strong> Dos sistemas lineales homogéneos se dicen equivalentes si sus conjuntos de soluciones son iguales.</h5>
+<p>Ejemplo. Los siguientes sistemas lineales homogéneos a coeficientes en <span class="arithmatex">\(\mathbb{R}\)</span> son equivalentes:
+![[Pasted image 20250901120031.png]]</p>
 
 
 
@@ -1094,14 +1153,14 @@ Pero en este caso, la multiplicación escalar es: $$ \cdot : K \times V \rightar
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="../../../js/mathjax-refresh.js"></script>
+        <script src="../../js/mathjax-refresh.js"></script>
       
     
   </body>
