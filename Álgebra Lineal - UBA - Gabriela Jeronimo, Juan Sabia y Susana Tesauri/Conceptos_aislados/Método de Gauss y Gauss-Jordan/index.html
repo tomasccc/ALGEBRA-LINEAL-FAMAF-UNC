@@ -9,21 +9,25 @@
       
       
       
+        <link rel="prev" href="../La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../../Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso</title>
+        <title>Método de Gauss y Gauss Jordan - ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -67,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#metodo-de-gauss-o-eliminacion-de-gauss" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -77,7 +86,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-header__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
+    <a href="../../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-header__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -97,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Método de Gauss y Gauss Jordan
             
           </span>
         </div>
@@ -198,7 +207,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -226,7 +235,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.3%20Matrices/" class="md-tabs__link">
+        <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.3%20Matrices/" class="md-tabs__link">
           
   
   
@@ -245,6 +254,8 @@
   
   
   
+    
+  
   
     
     
@@ -252,11 +263,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.1%20Preliminares/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.1%20Preliminares/" class="md-tabs__link">
           
   
   
@@ -295,7 +308,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-nav__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
+    <a href="../../.." title="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" class="md-nav__button md-logo" aria-label="ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -313,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -417,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.3%20Matrices/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.3%20Matrices/" class="md-nav__link">
         
   
   
@@ -440,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.4.1%20Matrices%20reducidas%20por%20filas/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.4.1%20Matrices%20reducidas%20por%20filas/" class="md-nav__link">
         
   
   
@@ -463,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.1%20%C3%81lgebra%20de%20Matrices%20-%20Algunos%20tipos%20de%20matrices/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.1%20%C3%81lgebra%20de%20Matrices%20-%20Algunos%20tipos%20de%20matrices/" class="md-nav__link">
         
   
   
@@ -486,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.2%20Suma%20de%20matrices/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.2%20Suma%20de%20matrices/" class="md-nav__link">
         
   
   
@@ -509,7 +522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.3%20Multiplicaci%C3%B3n%20de%20matrices/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.3%20Multiplicaci%C3%B3n%20de%20matrices/" class="md-nav__link">
         
   
   
@@ -532,7 +545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.4%20Multiplicaci%C3%B3n%20de%20una%20matriz%20por%20un%20escalar/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.5.4%20Multiplicaci%C3%B3n%20de%20una%20matriz%20por%20un%20escalar/" class="md-nav__link">
         
   
   
@@ -555,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.6%20Matrices%20elementales/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.6%20Matrices%20elementales/" class="md-nav__link">
         
   
   
@@ -627,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Conceptos_aislados/Observaciones%20del%20producto%20de%20matrices/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Conceptos_aislados/Observaciones%20del%20producto%20de%20matrices/" class="md-nav__link">
         
   
   
@@ -699,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.3.D-La%20operaci%C3%B3n%20inversa%20de%20una%20operaci%C3%B3n%20elemental%20es%20otra%20operaci%C3%B3n%20elemental%20del%20mismo%20tipo/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.3.D-La%20operaci%C3%B3n%20inversa%20de%20una%20operaci%C3%B3n%20elemental%20es%20otra%20operaci%C3%B3n%20elemental%20del%20mismo%20tipo/" class="md-nav__link">
         
   
   
@@ -722,7 +735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.4.1.D-Toda%20matriz%20es%20equivalente%20por%20fila%20a%20una%20matriz%20escal%C3%B3n%20reducida%20por%20fila/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.4.1.D-Toda%20matriz%20es%20equivalente%20por%20fila%20a%20una%20matriz%20escal%C3%B3n%20reducida%20por%20fila/" class="md-nav__link">
         
   
   
@@ -745,7 +758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.4.4.D-Teorema%202.4.4/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.4.4.D-Teorema%202.4.4/" class="md-nav__link">
         
   
   
@@ -768,7 +781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.4.8.D-Una%20matriz%20cuadrada%20es%20invertible%20o%20equivalente%20a%20la%20identidad%20si%20y%20s%C3%B3lo%20si%20su%20sistema%20de%20ecuaciones%20tiene%20soluci%C3%B3n%20%C3%BAnica/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Demostraciones/2.4.8.D-Una%20matriz%20cuadrada%20es%20invertible%20o%20equivalente%20a%20la%20identidad%20si%20y%20s%C3%B3lo%20si%20su%20sistema%20de%20ecuaciones%20tiene%20soluci%C3%B3n%20%C3%BAnica/" class="md-nav__link">
         
   
   
@@ -840,7 +853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Ejemplos/2.4.1.E-MERF%2C%20MRF/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Ejemplos/2.4.1.E-MERF%2C%20MRF/" class="md-nav__link">
         
   
   
@@ -863,7 +876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Ejemplos/2.5.3-E-Multiplicaci%C3%B3n%20de%20matrices/" class="md-nav__link">
+      <a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/Ejemplos/2.5.3-E-Multiplicaci%C3%B3n%20de%20matrices/" class="md-nav__link">
         
   
   
@@ -898,24 +911,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -928,7 +946,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Álgebra Lineal   UBA   Gabriela Jeronimo, Juan Sabia y Susana Tesauri
@@ -983,7 +1001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.1%20Preliminares/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.1%20Preliminares/" class="md-nav__link">
         
   
   
@@ -1006,7 +1024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.2%20Espacios%20vectoriales/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.2%20Espacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -1029,7 +1047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.3%20Subespacios/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.3%20Subespacios/" class="md-nav__link">
         
   
   
@@ -1052,7 +1070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.4%20Sistemas%20de%20generadores/" class="md-nav__link">
+      <a href="../../1.1%20Espacios%20vectoriales%20y%20subespacios/1.1.4%20Sistemas%20de%20generadores/" class="md-nav__link">
         
   
   
@@ -1124,7 +1142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-nav__link">
+      <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.1%20Sistemas%20lineales%20homog%C3%A9neos/" class="md-nav__link">
         
   
   
@@ -1147,7 +1165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/" class="md-nav__link">
+      <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.2%20M%C3%A9todo%20de%20triangulaci%C3%B3n/" class="md-nav__link">
         
   
   
@@ -1170,7 +1188,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.3%20Cantidad%20de%20soluciones%20de%20un%20sistema%20homog%C3%A9neo/" class="md-nav__link">
+      <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.3%20Cantidad%20de%20soluciones%20de%20un%20sistema%20homog%C3%A9neo/" class="md-nav__link">
         
   
   
@@ -1193,7 +1211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.4%20Sistemas%20lineales%20no%20homog%C3%A9neos/" class="md-nav__link">
+      <a href="../../1.2%20Sistemas%20de%20ecuaciones%20lineales/1.2.4%20Sistemas%20lineales%20no%20homog%C3%A9neos/" class="md-nav__link">
         
   
   
@@ -1221,6 +1239,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1231,11 +1251,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
@@ -1251,7 +1271,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Conceptos aislados
@@ -1265,7 +1285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Conceptos_aislados/Anillo/" class="md-nav__link">
+      <a href="../Anillo/" class="md-nav__link">
         
   
   
@@ -1288,7 +1308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Conceptos_aislados/Cuerpo/" class="md-nav__link">
+      <a href="../Cuerpo/" class="md-nav__link">
         
   
   
@@ -1311,7 +1331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Conceptos_aislados/Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/" class="md-nav__link">
+      <a href="../Definici%C3%B3n%201.2%20Propiedades%20b%C3%A1sicas/" class="md-nav__link">
         
   
   
@@ -1334,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Conceptos_aislados/Definici%C3%B3n%20Espacio%20Vectorial/" class="md-nav__link">
+      <a href="../Definici%C3%B3n%20Espacio%20Vectorial/" class="md-nav__link">
         
   
   
@@ -1357,7 +1377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Conceptos_aislados/La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/" class="md-nav__link">
+      <a href="../La%20multiplicaci%C3%B3n%20de%20un%20vector%20fijo%20por%20escalares%20reales/" class="md-nav__link">
         
   
   
@@ -1377,10 +1397,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Conceptos_aislados/M%C3%A9todo%20de%20Gauss%20y%20Gauss-Jordan/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Método de Gauss y Gauss Jordan
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1391,6 +1431,51 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodo-de-gauss-o-eliminacion-de-gauss" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Método de Gauss (o eliminación de Gauss)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodo-de-gaussjordan-o-eliminacion-completa" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Método de Gauss–Jordan (o eliminación completa)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#para-que-se-usa-cada-uno" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 ¿Para qué se usa cada uno?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1452,7 +1537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/" class="md-nav__link">
+      <a href="../../Demostraciones/1.1.2.D-Propiedades%20de%20un%20espacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -1475,7 +1560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.1.3.D-La%20intersecci%C3%B3n%20de%20subespacios%20es%20subespacio/" class="md-nav__link">
+      <a href="../../Demostraciones/1.1.3.D-La%20intersecci%C3%B3n%20de%20subespacios%20es%20subespacio/" class="md-nav__link">
         
   
   
@@ -1498,7 +1583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.1.3.D-Tres%20propiedades%20de%20un%20subespacio%20vectorial/" class="md-nav__link">
+      <a href="../../Demostraciones/1.1.3.D-Tres%20propiedades%20de%20un%20subespacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -1521,7 +1606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.2.1.D-El%20conjunto%20de%20soluciones%20de%20un%20sistema%20de%20ecuaciones%20homog%C3%A9neo%20es%20un%20subespacio%20vectorial/" class="md-nav__link">
+      <a href="../../Demostraciones/1.2.1.D-El%20conjunto%20de%20soluciones%20de%20un%20sistema%20de%20ecuaciones%20homog%C3%A9neo%20es%20un%20subespacio%20vectorial/" class="md-nav__link">
         
   
   
@@ -1544,7 +1629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.2.2.D-Operaciones%20entre%20filas/" class="md-nav__link">
+      <a href="../../Demostraciones/1.2.2.D-Operaciones%20entre%20filas/" class="md-nav__link">
         
   
   
@@ -1567,7 +1652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.2.3.D-Siempre%20que%20un%20sistema%20homog%C3%A9neo%20tenga%20menos%20ecuaciones%20que%20inc%C3%B3gnitas%2C%20existe%20una%20soluci%C3%B3n%20distinta%20de%20cero/" class="md-nav__link">
+      <a href="../../Demostraciones/1.2.3.D-Siempre%20que%20un%20sistema%20homog%C3%A9neo%20tenga%20menos%20ecuaciones%20que%20inc%C3%B3gnitas%2C%20existe%20una%20soluci%C3%B3n%20distinta%20de%20cero/" class="md-nav__link">
         
   
   
@@ -1590,7 +1675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.2.4.D-Si%20un%20sistema%20no%20homog%C3%A9neo%20tiene%20al%20menos%20una%20soluci%C3%B3n%2C%20entonces%20TODAS%20sus%20soluciones%20se%20obtienen%20sumando%20esa%20soluci%C3%B3n%20fija%20a%20cualquier%20soluci%C3%B3n%20del%20sistema%20homog%C3%A9neo%20correspondiente/" class="md-nav__link">
+      <a href="../../Demostraciones/1.2.4.D-Si%20un%20sistema%20no%20homog%C3%A9neo%20tiene%20al%20menos%20una%20soluci%C3%B3n%2C%20entonces%20TODAS%20sus%20soluciones%20se%20obtienen%20sumando%20esa%20soluci%C3%B3n%20fija%20a%20cualquier%20soluci%C3%B3n%20del%20sistema%20homog%C3%A9neo%20correspondiente/" class="md-nav__link">
         
   
   
@@ -1613,7 +1698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Demostraciones/1.2.4.D-Un%20sistema%20homog%C3%A9neo%20con%20igual%20cantidad%20de%20ecuaciones%20que%20inc%C3%B3gnitas%20tiene%20soluci%C3%B3n%20si%20y%20s%C3%B3lo%20si%20la%20matriz%20triangular%20superior%20asociada%20tiene%20todos%20los%20elementos%20de%20la%20diagonal%20distintos%20de%20cero/" class="md-nav__link">
+      <a href="../../Demostraciones/1.2.4.D-Un%20sistema%20homog%C3%A9neo%20con%20igual%20cantidad%20de%20ecuaciones%20que%20inc%C3%B3gnitas%20tiene%20soluci%C3%B3n%20si%20y%20s%C3%B3lo%20si%20la%20matriz%20triangular%20superior%20asociada%20tiene%20todos%20los%20elementos%20de%20la%20diagonal%20distintos%20de%20cero/" class="md-nav__link">
         
   
   
@@ -1685,7 +1770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.1.1.E-Dominio%20de%20integridad/" class="md-nav__link">
+      <a href="../../Ejemplos/1.1.1.E-Dominio%20de%20integridad/" class="md-nav__link">
         
   
   
@@ -1708,7 +1793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.1.1.E-Grupo/" class="md-nav__link">
+      <a href="../../Ejemplos/1.1.1.E-Grupo/" class="md-nav__link">
         
   
   
@@ -1731,7 +1816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.1.2.E-Espacios%20vectoriales/" class="md-nav__link">
+      <a href="../../Ejemplos/1.1.2.E-Espacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -1754,7 +1839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.1.3.E-Subespacios%20con%20tres%20propiedades/" class="md-nav__link">
+      <a href="../../Ejemplos/1.1.3.E-Subespacios%20con%20tres%20propiedades/" class="md-nav__link">
         
   
   
@@ -1777,7 +1862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.1.3.E-Subespacios%20vectoriales/" class="md-nav__link">
+      <a href="../../Ejemplos/1.1.3.E-Subespacios%20vectoriales/" class="md-nav__link">
         
   
   
@@ -1800,7 +1885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.2.3.E-Teorema%201.24/" class="md-nav__link">
+      <a href="../../Ejemplos/1.2.3.E-Teorema%201.24/" class="md-nav__link">
         
   
   
@@ -1823,7 +1908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%C3%81lgebra%20Lineal%20-%20UBA%20-%20Gabriela%20Jeronimo%2C%20Juan%20Sabia%20y%20Susana%20Tesauri/Ejemplos/1.2.4.E-Resoluci%C3%B3n%20de%20sistema%20de%20ecuaciones%20lineales%20no%20homog%C3%A9neo/" class="md-nav__link">
+      <a href="../../Ejemplos/1.2.4.E-Resoluci%C3%B3n%20de%20sistema%20de%20ecuaciones%20lineales%20no%20homog%C3%A9neo/" class="md-nav__link">
         
   
   
@@ -1866,8 +1951,66 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+  <h1>Método de Gauss y Gauss Jordan</h1>
+
+<h3 id="metodo-de-gauss-o-eliminacion-de-gauss">🔹 Método de Gauss (o <em>eliminación de Gauss</em>)</h3>
+<ul>
+<li>Se usa para transformar la matriz en <strong>forma triangular superior</strong>.  </li>
+<li>Es decir, se hacen ceros <strong>debajo</strong> de los pivotes, pero no se toca lo que queda arriba.<br />
+Ejemplo de resultado típico (matriz triangular superior):
+$$\begin{bmatrix}</li>
+<li>&amp; * &amp; * \
+0 &amp; * &amp; * \
+0 &amp; 0 &amp; *
+\end{bmatrix}$$</li>
+</ul>
+<hr />
+<h3 id="metodo-de-gaussjordan-o-eliminacion-completa">🔹 Método de Gauss–Jordan (o <em>eliminación completa</em>)</h3>
+<ul>
+<li>Se continúa eliminando hasta dejar la matriz en <strong>forma reducida por filas</strong> (<em>forma escalonada reducida</em>).  </li>
+<li>Esto significa que no solo hay ceros debajo de cada pivote, sino también <strong>arriba</strong>.  </li>
+<li>Cada pivote es <span class="arithmatex">\($1$\)</span> y es el único número distinto de cero en su columna.  </li>
+<li>Se puede leer la solución del sistema <strong>directamente</strong>.<br />
+Ejemplo de resultado típico (matriz reducida por filas):$$
+\begin{bmatrix}
+1 &amp; 0 &amp; 0 \
+0 &amp; 1 &amp; 0 \
+0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$Este método en particular es el mencionado en el apartado de <strong><a href="../../../%C3%81lgebra%20-%20FAMAF-UNC-Notas%20del%20te%C3%B3rico%20-%20Alejandro%20Tiraboschi%2C%20Silvina%20Riveros%20y%20Agust%C3%ADn%20Garc%C3%ADa%20Iglesias/2.%20SIstemas%20Lineales/2.4.1%20Matrices%20reducidas%20por%20filas/">2.4.1 Matrices reducidas por filas</a></strong> del libro.</li>
+</ul>
+<hr />
+<h3 id="para-que-se-usa-cada-uno"><strong>🔹 ¿Para qué se usa cada uno?</strong></h3>
+<ul>
+<li><strong>Gauss</strong>  </li>
+<li>Más rápido y eficiente.  </li>
+<li>Ideal para resolver sistemas grandes en cálculo numérico.  </li>
+<li>Se usa mucho en programación y aplicaciones prácticas.  </li>
+<li><strong>Gauss–Jordan</strong>  </li>
+<li>Útil en teoría y para sistemas pequeños.  </li>
+<li>Permite obtener la solución general directamente.  </li>
+<li>Método natural para calcular la inversa de una matriz:
+$$  <br />
+    [A \,|\, I] \;\;\xrightarrow{\text{Gauss–Jordan}}\;\; [I \,|\, A^{-1}]
+    $$</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1909,14 +2052,14 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "search.highlight", "search.suggest"], "search": "/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="/js/mathjax-refresh.js"></script>
+        <script src="../../../js/mathjax-refresh.js"></script>
       
     
   </body>
