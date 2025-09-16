@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c68b12da291f7fd",
+            "id": "3f0a69b16fefaef0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/1.1 Espacios vectoriales y subespacios/Demostraciones/1.1.3.D-Tres propiedades de un subespacio vectorial.md",
+                "file": "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.3 Matrices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.3.D-Tres propiedades de un subespacio vectorial"
+              "title": "2.3 Matrices"
+            }
+          },
+          {
+            "id": "9a02cfa0a34cd316",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.2 Suma de matrices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.5.2 Suma de matrices"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,47 +183,53 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3c68b12da291f7fd",
+  "active": "9a02cfa0a34cd316",
   "lastOpenFiles": [
-    "docs/1.1 Espacios vectoriales y subespacios/1.1.3 Subespacios.md",
-    "docs/1.1 Espacios vectoriales y subespacios/1.1.4 Sistemas de generadores.md",
-    "docs/1.2 Sistemas de ecuaciones lineales/1.2.2 Método de triangulación.md",
-    "docs/1.2 Sistemas de ecuaciones lineales/1.2.1 Sistemas lineales homogéneos.md",
-    "assets/Pasted image 20250901124924.png",
-    "docs/1.1 Espacios vectoriales y subespacios/Demostraciones/1.1.3.D-La intersección de subespacios es subespacio.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Cuerpo.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Anillo.md",
-    "docs/1.1 Espacios vectoriales y subespacios/1.1.2 Espacios vectoriales.md",
-    "assets/Pasted image 20250901120031.png",
-    "assets",
-    "assets/Pasted image 20250901112918.png",
-    "docs/1.2 Sistemas de ecuaciones lineales",
-    "docs/1.1 Espacios vectoriales y subespacios/Ejemplos/1.1.3.E-Subespacios vectoriales.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Ejemplos/1.1.1.E-Dominio de integridad.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Ejemplos/1.1.1.E-Grupo.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Ejemplos/1.1.3.E-Subespacios con tres propiedades.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Demostraciones/Sin título.md",
-    "docs/1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Demostraciones/1.1.2.E-Espacios vectoriales.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Demostraciones/1.1.2.D-Propiedades de un espacio vectorial.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Demostraciones/1.1.3.D-Tres propiedades de un subespacio vectorial.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Ejemplos",
-    "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/La multiplicación de un vector fijo por escalares reales.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición 1.2 Propiedades básicas.md",
-    "docs/index.md",
-    "docs/1.1 Espacios vectoriales y subespacios/Conceptos_aislados/Definición Espacio Vectorial.md",
-    "site/search/search_index.json",
-    "site/search",
-    "site/1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares/index.html",
-    "site/1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares",
-    "site/1.1 Espacios vectoriales y subespacios",
-    "site/index.html",
-    "site/404.html",
-    "site/assets/images/favicon.png",
-    "1.1 Espacios vectoriales y subespacios/1.1.1 Preliminares.md",
-    "1.1 Espacios vectoriales y subespacios/1.1.2 Espacios vectoriales.md",
-    "1.1 Espacios vectoriales y subespacios/1.1.3 Subespacios.md",
-    "1.1 Espacios vectoriales y subespacios/Conceptos aislados/Cuerpo.md",
-    "Pasted image 20250821220107.png"
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.2.4.E-Resolución de sistema de ecuaciones lineales no homogéneo.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.4 Sistemas lineales no homogéneos.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Demostraciones/1.2.4.D-Si un sistema no homogéneo tiene al menos una solución, entonces TODAS sus soluciones se obtienen sumando esa solución fija a cualquier solución del sistema homogéneo correspondiente.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.4.1 Matrices reducidas por filas.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.1 Álgebra de Matrices - Algunos tipos de matrices.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.2 Suma de matrices.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.3 Multiplicación de matrices.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.1 Espacios vectoriales y subespacios/1.1.4 Sistemas de generadores.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.1 Sistemas lineales homogéneos.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.3 Cantidad de soluciones de un sistema homogéneo.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.4 Multiplicación de una matriz por un escalar.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.2 Método de triangulación.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.3 Matrices.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.6 Matrices elementales.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Ejemplos/2.4.1.E-MERF, MRF.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Ejemplos/2.5.3-E-Multiplicación de matrices.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.4.1.D-Toda matriz es equivalente por fila a una matriz escalón reducida por fila.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.4.4.D-Teorema 2.4.4.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.2 Equivalencia de Sistemas de Ecuaciones Lineales.md",
+    "assets/Pasted image 20250914170638.png",
+    "assets/Pasted image 20250914165946.png",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Conceptos_aislados/Observaciones del producto de matrices.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Conceptos_aislados",
+    "assets/Pasted image 20250914165407.png",
+    "assets/Pasted image 20250914165307.png",
+    "assets/Pasted image 20250914164501.png",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Conceptos_aislados/Definición 1.2 Propiedades básicas.md",
+    "assets/Pasted image 20250914135005.png",
+    "assets/Pasted image 20250914134946.png",
+    "assets/Pasted image 20250914134933.png",
+    "assets/Pasted image 20250914134447.png",
+    "assets/Pasted image 20250914133549.png",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.4.8.D-Una matriz cuadrada es invertible o equivalente a la identidad si y sólo si su sistema de ecuaciones tiene solución única.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Demostraciones/1.2.4.D-Un sistema homogéneo con igual cantidad de ecuaciones que incógnitas tiene solución si y sólo si la matriz triangular superior asociada tiene todos los elementos de la diagonal distintos de cero.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Demostraciones/1.2.3.D-Siempre que un sistema homogéneo tenga menos ecuaciones que incógnitas, existe una solución distinta de cero.md",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Conceptos_aislados/Método de Gauss y Gauss-Jordan.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.3.D-La operación inversa de una operación elemental es otra operación elemental del mismo tipo.md",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Ejemplos",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales",
+    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias",
+    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri",
+    "site/1.2 Sistemas de ecuaciones lineales/1.2.2 Método de triangulación/index.html",
+    "site/1.2 Sistemas de ecuaciones lineales/1.2.2 Método de triangulación",
+    "site/1.2 Sistemas de ecuaciones lineales/1.2.1 Sistemas lineales homogéneos/index.html",
+    "site/1.2 Sistemas de ecuaciones lineales/1.2.1 Sistemas lineales homogéneos"
   ]
 }
