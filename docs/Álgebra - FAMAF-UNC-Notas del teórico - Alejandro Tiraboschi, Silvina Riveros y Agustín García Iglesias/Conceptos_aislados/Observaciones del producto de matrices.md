@@ -16,8 +16,8 @@ matriz diagonal obtenemos:![[Pasted image 20250914164501.png]]
 ![[Pasted image 20250914165407.png]]
 
 No se cumple la fórmula del binomio: sean $A, B$ matrices $n × n$, entonces
-$$(A + B)2 = (A + B)(A + B)$$$$
+$$(A + B)^2 = (A + B)(A + B)$$$$
 = A(A + B) + B(A + B)$$$$= AA + AB + BA + BB$$
-$$= A2 + AB + BA + B2,$$
+$$= A^2 + AB + BA + B^2,$$
 y esta última expresión puede no ser igual a $A2 + 2AB + B2$ ya que el
 producto de matrices no es conmutativo (en general).
