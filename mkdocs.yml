@@ -1,44 +1,97 @@
-site_name: ÁLGEBRA LINEAL - FAMAF UNC - Notas de Tomás Caruso
+site_name: ÁLGEBRA LINEAL - FAMAF - UNC
+site_description: "Apuntes colaborativos y ejercicios resueltos de Álgebra Lineal para estudiantes de la FAMAF - UNC."
+site_url: https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/
+repo_url: https://github.com/tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+repo_name: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+edit_uri: edit/main/docs/
 theme:
-    name: material
-    palette:
-      - scheme: default
-        primary: indigo
-        accent: indigo
-        toggle:
-          icon: material/weather-night
-          name: Cambiar a modo oscuro
-      - scheme: slate
-        primary: black
-        accent: deep orange
-        toggle:
-          icon: material/white-balance-sunny
-          name: Cambiar a modo claro
-    features:
-      - navigation.tabs
-      - navigation.top
-      - navigation.instant
-      - toc.integrate
-      - content.code.copy
-      - content.action.edit
-      - search.highlight
-      - search.suggest      
-    
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - js/mathjax-refresh.js
+  name: material
+  custom_dir: overrides  
+  logo: assets/logo.png
+  favicon: assets/logo2.png  
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - navigation.prerender
+    - search.highlight
+    - search.share
+    - search.full_text
+    - search.math
+    - search.suggest
+  font:
+    text: Inter
+    code: Inter
+  palette:
+    - scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: black
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
 
 extra:
-  math:
-    enable: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tomasccc
+      name: Mi GitHub
+    - icon: fontawesome/brands/linux
+      link: https://linuxmint.com/
+      name: Linux Mint
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  - social:
+      cards_layout_options:
+        background_color: "#3f51b5"  
+        color: "#ffffff"            
+        font_family: Inter
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      fallback_to_build_date: true
+  - git-committers:
+      repository: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+      branch: main
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      ignore_authors:
+        - "dependabot[bot]"
+        - "dependabot-preview[bot]"
+        - "dependabot-core[bot]"
+        - "dependabot"
+        - "dependabot[bot]"
+        - "dependabot-preview" 
+        - "dependabot-core" 
+
+hooks:
+  - hooks.py
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
-      generic: true
+      generic: true 
+  - toc:
+      permalink: true
 
-plugins:
-  - search
-  - roamlinks
+extra_javascript:
+  - js/mathjax.js
+  - js/feedback.js  - javascripts/feedback.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  

@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "14a1b212e612f886",
+    "id": "cfa51f4960fd6f8a",
     "type": "split",
     "children": [
       {
-        "id": "a9feeb5cf801f63a",
+        "id": "3307e3417fa614d2",
         "type": "tabs",
         "children": [
           {
-            "id": "3f0a69b16fefaef0",
+            "id": "2b2d67a8bb242f8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.3 Matrices.md",
+                "file": "docs/U1-U2/3. La integral definida.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.3 Matrices"
-            }
-          },
-          {
-            "id": "9a02cfa0a34cd316",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Conceptos_aislados/Observaciones del producto de matrices.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Observaciones del producto de matrices"
+              "title": "3. La integral definida"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e195dd825f30179a",
+    "id": "1c2c3795913e3bbd",
     "type": "split",
     "children": [
       {
-        "id": "88e28983bb64eec8",
+        "id": "cd56b379dfbbab07",
         "type": "tabs",
         "children": [
           {
-            "id": "fe2b244be98000d7",
+            "id": "3b595c424126c64e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "bb9656a09fbdef80",
+            "id": "61ee5fa319657b7b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "bd12e3ffac104e20",
+            "id": "8aac7812ec508d50",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +78,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "9e884cb2c0b8fbf5",
+    "id": "cce7f9bb45013aac",
     "type": "split",
     "children": [
       {
-        "id": "e12f8c4b8871809a",
+        "id": "baba66cc25177063",
         "type": "tabs",
         "children": [
           {
-            "id": "58371025fb63f489",
+            "id": "5a3737a27fa4249b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1 Espacios vectoriales y subespacios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 1.1 Espacios vectoriales y subespacios"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "cf01777b06068e87",
+            "id": "913d4e17b004e08f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.1 Espacios vectoriales y subespacios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 1.1 Espacios vectoriales y subespacios"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "49ee1607fc5d99ff",
+            "id": "72bb6210f9d7f045",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +135,17 @@
             }
           },
           {
-            "id": "f4e9a85c3f7fdb12",
+            "id": "4ba15c6e0d08ea85",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.1 Espacios vectoriales y subespacios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 1.1 Espacios vectoriales y subespacios"
+              "title": "Esquema"
             }
           }
         ]
@@ -183,53 +165,53 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9a02cfa0a34cd316",
+  "active": "2b2d67a8bb242f8e",
   "lastOpenFiles": [
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.3 Multiplicación de matrices.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.2 Suma de matrices.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.1 Álgebra de Matrices - Algunos tipos de matrices.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.4.1 Matrices reducidas por filas.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.3 Matrices.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.5.4 Multiplicación de una matriz por un escalar.md",
+    "docs/U1-U2/1. El problema del área.md",
+    "docs/U1-U2/3. La integral definida.md",
+    "docs/Series de potencias - U3/11.8 Series de potencias.md",
+    "CONTRIBUTING.md",
+    "docs/U1-U2/Demostraciones/D-TFC1.md",
+    "docs/assets/logo2.png",
+    "docs/assets/logo.svg",
+    "docs/assets/2-removebg-preview.png",
+    "docs/assets/1-removebg-preview.svg",
+    "docs/assets",
+    "docs/Series de potencias - U3/11.9 Representación de las funciones como series de potencias.md",
+    "docs/Series de potencias - U3/Ejemplos/E-Serie de Taylor y Maclaurin.md",
+    "docs/Series de potencias - U3/Ejemplos/E-Funciones como series de potencias.md",
+    "docs/Series de potencias - U3/Ejemplos/E-Series de potencias.md",
+    "requirements.txt",
+    "docs/Series de potencias - U3/Demostraciones/D-Fórmula de Lagrange para el Resto.md",
+    "docs/Series de potencias - U3/11.10 Series de Taylor y Maclaurin.md",
     "docs/index.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Conceptos_aislados/Observaciones del producto de matrices.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.6 Matrices elementales.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Ejemplos/2.5.3-E-Multiplicación de matrices.md",
-    "site/search/search_index.json",
-    "site/search",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.2.4.E-Resolución de sistema de ecuaciones lineales no homogéneo/index.html",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.2.4.E-Resolución de sistema de ecuaciones lineales no homogéneo",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.2.3.E-Teorema 1.24/index.html",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.2.3.E-Teorema 1.24",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.1.3.E-Subespacios vectoriales/index.html",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.1.3.E-Subespacios vectoriales",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.1.3.E-Subespacios con tres propiedades/index.html",
-    "site/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.1.3.E-Subespacios con tres propiedades",
-    "site/assets/images/favicon.png",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Ejemplos/1.2.4.E-Resolución de sistema de ecuaciones lineales no homogéneo.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.4 Sistemas lineales no homogéneos.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Demostraciones/1.2.4.D-Si un sistema no homogéneo tiene al menos una solución, entonces TODAS sus soluciones se obtienen sumando esa solución fija a cualquier solución del sistema homogéneo correspondiente.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.1 Espacios vectoriales y subespacios/1.1.4 Sistemas de generadores.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.1 Sistemas lineales homogéneos.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.3 Cantidad de soluciones de un sistema homogéneo.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/1.2 Sistemas de ecuaciones lineales/1.2.2 Método de triangulación.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Ejemplos/2.4.1.E-MERF, MRF.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.4.1.D-Toda matriz es equivalente por fila a una matriz escalón reducida por fila.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.4.4.D-Teorema 2.4.4.md",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/2. SIstemas Lineales/2.2 Equivalencia de Sistemas de Ecuaciones Lineales.md",
-    "assets/Pasted image 20250914170638.png",
-    "assets/Pasted image 20250914165946.png",
-    "assets/Pasted image 20250914165407.png",
-    "assets/Pasted image 20250914165307.png",
-    "assets/Pasted image 20250914164501.png",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Conceptos_aislados/Definición 1.2 Propiedades básicas.md",
-    "assets/Pasted image 20250914135005.png",
-    "assets/Pasted image 20250914134946.png",
-    "assets/Pasted image 20250914134933.png",
-    "assets/Pasted image 20250914134447.png",
-    "docs/Álgebra - FAMAF-UNC-Notas del teórico - Alejandro Tiraboschi, Silvina Riveros y Agustín García Iglesias/Demostraciones/2.4.8.D-Una matriz cuadrada es invertible o equivalente a la identidad si y sólo si su sistema de ecuaciones tiene solución única.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Demostraciones/1.2.4.D-Un sistema homogéneo con igual cantidad de ecuaciones que incógnitas tiene solución si y sólo si la matriz triangular superior asociada tiene todos los elementos de la diagonal distintos de cero.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Demostraciones/1.2.3.D-Siempre que un sistema homogéneo tenga menos ecuaciones que incógnitas, existe una solución distinta de cero.md",
-    "docs/Álgebra Lineal - UBA - Gabriela Jeronimo, Juan Sabia y Susana Tesauri/Conceptos_aislados/Método de Gauss y Gauss-Jordan.md"
+    "docs/U1-U2/4. Método de Sustitución e Integración por Partes para integrales definidas.md",
+    "__pycache__/hooks.cpython-312.pyc",
+    "__pycache__",
+    "hooks.py",
+    "docs/stylesheets/extra.css",
+    "docs/stylesheets",
+    "docs/U1-U2/Demostraciones/6.D-Integral de arctangente.md",
+    "index.md",
+    "docs/U1-U2/assets/Pasted image 20250912161602.png",
+    "docs/U1-U2/assets/Pasted image 20250912161041.png",
+    "docs/U1-U2/assets/Pasted image 20250911085841.png",
+    "docs/U1-U2/assets/Pasted image 20250902203332.png",
+    "docs/U1-U2/assets/Pasted image 20250902194601.png",
+    "docs/U1-U2/assets/Pasted image 20250829200931.png",
+    "docs/U1-U2/Ejemplos/E-TFC2.md",
+    "docs/U1-U2/Ejemplos/E-TFC1.md",
+    "docs/U1-U2/Ejemplos/E-Regla de sustitución en integral definida.md",
+    "docs/U1-U2/Ejemplos/E-Integración por Partes sobre Integral definida.md",
+    "docs/U1-U2/Ejemplos/E-Cálculo de área entre curvas.md",
+    "docs/U1-U2/Ejemplos/E-Aplicación del TFC2 en subintervalos.md",
+    "docs/U1-U2/Ejemplos/7.E-Integral convergente o divergente.md",
+    "docs/U1-U2/Ejemplos/7.1.E-Criterio de Comparación para integrales impropias.md",
+    "docs/U1-U2/Ejemplos/6.E-Integración de funciones racionales usando fracciones simples.md",
+    "docs/U1-U2/Demostraciones/D-TFC2.md",
+    "docs/U1-U2/assets",
+    "docs/U1-U2/Ejemplos",
+    "docs/U1-U2/Demostraciones",
+    "docs/U1-U2/7.1 Criterio de Comparación para integrales impropias.md"
   ]
 }

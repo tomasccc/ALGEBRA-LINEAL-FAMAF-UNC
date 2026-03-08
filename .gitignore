@@ -1,0 +1,11 @@
+.obsidian/
+
+.DS_Store
+Thumbs.db
+
+site/   
+.venv/
+venv/
+__pycache__/
+.cache/
+/site
