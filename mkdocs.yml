@@ -1,9 +1,16 @@
-site_name: ÁLGEBRA LINEAL - FAMAF - UNC
-site_description: "Apuntes colaborativos y ejercicios resueltos de Álgebra Lineal para estudiantes de la FAMAF - UNC."
-site_url: https://tomasccc.github.io/ALGEBRA-LINEAL-FAMAF-UNC/
-repo_url: https://github.com/tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
-repo_name: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
-edit_uri: edit/main/docs/
+site_name: !ENV [SITE_NAME, "ERGO"]
+site_description: !ENV [SITE_DESCRIPTION, "Sitio estático para notas colaborativas"]
+site_url: !ENV [SITE_URL, "https://tomasccc.github.io/"]
+
+repo_url: !ENV [REPO_URL, "https://github.com/tomasccc/ALGEBRA-LINEAL-FAMAF-UNC"]
+repo_name: !ENV [REPO_NAME, "tomasccc/ALGEBRA-LINEAL-FAMAF-UNC"]
+edit_uri: !ENV [EDIT_URI, "edit/main/docs/"]
+
+copyright: |
+    Infraestructura bajo licencia AGPLv3. <br>
+    Los apuntes se distribuyen bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>. <br>
+    ERGO no se responsabiliza por el contenido subido por terceros en la sección Comunidad. <br><br>
+    ☕ <strong>¿Te sirvió el sitio?</strong> Podés <a href="https://cafecito.app/ergonotes" target="_blank">colaborar con el mantenimiento del servidor acá</a>. 
 theme:
   name: material
   custom_dir: overrides  
@@ -11,6 +18,8 @@ theme:
   favicon: assets/logo2.png  
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -20,6 +29,7 @@ theme:
     - search.full_text
     - search.math
     - search.suggest
+    - navigation.indexes 
   font:
     text: Inter
     code: Inter
@@ -42,12 +52,20 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/tomasccc
       name: Mi GitHub
-    - icon: fontawesome/brands/linux
-      link: https://linuxmint.com/
-      name: Linux Mint
+    - icon: fontawesome/solid/mug-hot  
+      link: https://cafecito.app/ergonotes 
+      name: Invitame un café / Colaborar
+  decap_proxy: https://decap-proxy.tomycaruso.workers.dev
+  giscus:
+    repo: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+    repo_id: R_kgDOPkfsrw
+    category: Announcements
+    category_id: DIC_kwDOPkfsr84C8RYU
 
 plugins:
   - search
+  - awesome-pages 
+  - macros      
   - tags:
       tags_file: tags.md
   - social:
@@ -60,11 +78,12 @@ plugins:
       type: timeago
       fallback_to_build_date: true
   - git-committers:
-      repository: tomasccc/ALGEBRA-LINEAL-FAMAF-UNC
+      repository: !ENV [REPO_NAME, "tomasccc/ergo"] 
       branch: main
+
   - git-authors:
       show_contribution: true
-      show_line_count: true
+      show_line_count: true        
       ignore_authors:
         - "dependabot[bot]"
         - "dependabot-preview[bot]"
@@ -90,8 +109,6 @@ markdown_extensions:
       permalink: true
 
 extra_javascript:
-  - js/mathjax.js
-  - js/feedback.js  - javascripts/feedback.js
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  
